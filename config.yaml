@@ -1,0 +1,22 @@
+neg_set_num: 1
+test_interval: 10
+test_negs: 100
+topk: [10]
+lr: 0.005
+batch_size: 5000
+test_batch_size: 500
+num_epoches: 5000
+weight_decay: 0
+num_workers: 10
+Relationships: ["others", "match", "sub"]
+meta_group_num: 24
+alpha: 0.1
+beta: 0.1
+gamma: 0.5
+datapath: "dataset/"
+ifashion:
+    embedding_dim: 10
+    target_path: "dataset/iFashion/"
+amazon:
+    embedding_dim: 5
+    target_path: "dataset/Amazon_Fashion/"  
